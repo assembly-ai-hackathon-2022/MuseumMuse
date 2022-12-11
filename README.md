@@ -1,6 +1,6 @@
 # MuseumMuse
 
-A mobile app built for Assembly AI Hackathon 2022.
+A mobile app built for Assembly AI Hackathon 2022 ([devpost link](https://devpost.com/software/museummuse)).
 
 ## How to run the app locally on iOS
 
@@ -10,12 +10,3 @@ A mobile app built for Assembly AI Hackathon 2022.
 4. Create an OpenAI API key ([signup link](https://beta.openai.com/signup/))
 5. Copy `.env.sample` to `.env` and enter your own API key
 6. `yarn ios` to run the iOS app locally
-
-## Potential future iterations
-
-1. Android compatibility (not tested yet)
-2. Move the OpenAPI logic to server-side
-3. Add audio support for accessibility
-4. Add authentication
-5. Add subscription model
-6. ... more to come
