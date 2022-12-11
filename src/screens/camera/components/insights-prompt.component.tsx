@@ -19,7 +19,7 @@ export const InsightsPrompt = ({
   return (
     <>
       <Text style={tailwind('text-lg text-red-900 font-bold mb-4')}>
-        You want to know more about this artist and artwork?
+        You want to know more about this artwork?
       </Text>
       <ScrollView style={tailwind('mb-4')}>
         <Text style={tailwind('text-sm text-gray-800')}>{text}</Text>

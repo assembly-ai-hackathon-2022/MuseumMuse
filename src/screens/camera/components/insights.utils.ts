@@ -18,9 +18,9 @@ export const getInsights = async (text: string): Promise<string> => {
 
       This is an additional fun fact related to the art:
 
-      Separate each paragraph with a newline character.
+      Separate each paragraph with a newline character, and remove the paragraphs that you're not strongly confident in their validity. Also, make sure to remove the prompt text, and write your own text below.
     `,
-    temperature: 0.2,
+    temperature: 0.1,
     max_tokens: 1500,
   });
 
